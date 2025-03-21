@@ -1,7 +1,5 @@
-# Создаём игровое поле 5x5
 field = [['🌊'] * 5 for _ in range(5)]
 
-# Размещаем корабль случайным образом
 import random
 ship_row = random.randint(0, 4)
 ship_col = random.randint(0, 4)
